@@ -230,7 +230,7 @@ body {
 }
 
 .swiper-wrapper {
-  margin: 50px 0px;
+  margin: 10px 0px 50px;
 }
 
 .swiper-slide {
@@ -439,6 +439,10 @@ body {
   color: #1767a8;
 }
 
+.client-reviews .swiper-wrapper{
+
+}
+
 .review-slider {
   text-align: center;
 }
@@ -569,7 +573,7 @@ body {
   height: 4px;
   background-color: #1767a8;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 footer a {
@@ -592,7 +596,7 @@ footer a:hover {
 footer {
   background: #1b2854;
   color: #fff;
-  padding: 0px 100px;
+  padding: 30px 100px 0;
 }
 
 .icons {
