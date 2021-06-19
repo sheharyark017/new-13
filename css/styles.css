@@ -562,6 +562,7 @@ body {
   height: 4px;
   background-color: #1767a8;
   width: 100%;
+  margin-top: 50px;
 }
 
 footer a {
@@ -584,7 +585,7 @@ footer a:hover {
 footer {
   background: #1b2854;
   color: #fff;
-  padding: 50px 100px;
+  padding: 0px 100px;
 }
 
 .icons {
@@ -622,7 +623,6 @@ footer {
 .icons a:hover {
   margin: 0;
   cursor: pointer;
-  color: hsl(15, 79%, 70%);
 }
 
 footer i {
@@ -644,10 +644,6 @@ footer i {
   font-weight: 700;
 }
 
-.inner-footer {
-  margin: 0px 80px 0;
-}
-
 .web-name {
   font-size: 20px;
   font-weight: 600;
@@ -663,7 +659,7 @@ footer i {
   padding-right: 70px;
 }
 
-.about-p{
+.about-p {
   color: #7f9cc4;
 }
 
@@ -708,14 +704,168 @@ footer i {
     padding: 20px;
   }
 
+  /* end navbar */
+
+  /* top slider */
+
+  .top-slider {
+    padding: 50px 20px 0;
+  }
+
+  .top-slider h1 {
+    font-size: 30px;
+  }
+
+  .slider-text-btn a {
+    font-size: 16px;
+  }
+
+  .slider-text-btn a:nth-child(1) {
+    padding: 5px 20px;
+  }
+
+  .slider-text-btn a:nth-child(2) {
+    padding: 5px 19px;
+  }
+
+  .slider-image {
+    text-align: center;
+    padding: 30px 0;
+  }
+
+  .slider-image img {
+    height: 300px;
+  }
+
+  /* end top slider */
+
+  /* slider-bottom-btn */
+
+  .slider-bottom-btn {
+    padding: 45px 20px;
+    display: block;
+  }
+
+  .slider-bottom-btn a {
+    display: block;
+    margin: 10px 0;
+  }
+
+  /* slider-bottom-btn end */
+
+  /* design services */
+
+  .design-services {
+    padding: 50px 20px;
+  }
+
+  .design-services-top p:nth-child(1) {
+    font-size: 27px;
+  }
+
+  .design-services-top p:nth-child(2) {
+    font-size: 16px;
+  }
+
+  .services-card-text {
+    left: 10px;
+  }
+
+  .services-card-text p:nth-child(1) {
+    font-size: 21px;
+  }
+
+  /* end design services */
+
+  /* video section */
+
+  .video-section {
+    padding: 50px 20px;
+  }
+
+  .video-text-top p {
+    font-size: 30px;
+  }
+
+  .video-col {
+    margin-top: 30px;
+  }
+
+  .video-col iframe {
+    width: 100%;
+    height: 190px;
+  }
+
+  /* end video section */
+
+  /* designer level */
+
+  .designer-level {
+    padding: 50px 20px;
+  }
+
+  .designer-level-top p:nth-child(1) {
+    font-size: 28px;
+  }
+
+  .level {
+    padding: 5px 0;
+  }
+
+  /* end designer level */
+
+  /* client reviews */
+
+  .client-reviews {
+    padding: 50px 20px;
+  }
+
+  .client-reviews-top p:nth-child(1) {
+    font-size: 28px;
+  }
+
+  .review-slider {
+    text-align: center;
+  }
+
+  .review-slider .swiper-wrapper {
+    margin-top: 20px;
+  }
+
+  /* end client reviews */
+
+  /* freelancer designs */
+
+  .freelancer-designs {
+    padding: 50px 20px 20px;
+  }
+
+  .freelancer-designs-top p:nth-child(1) {
+    font-size: 28px;
+  }
+
+  .design-cards {
+    margin: 20px 0 40px;
+  }
+
+  .design-card-text .row{
+    align-items: center;
+  }
+
+  /* end freelancer designs */
+
   /* footer */
+
+  footer{
+    padding: 20px;
+  }
 
   .footer-col {
     width: 100%;
   }
 
   .inner-footer {
-    margin: 40px 30px 0;
+    margin: 0px 0px 0;
   }
 
   .footer-col h3 {
