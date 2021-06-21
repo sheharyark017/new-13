@@ -26,7 +26,6 @@ body {
 .notification-bar {
   background-color: #273898;
   display: flex;
-
   justify-content: space-between;
   padding: 10px 50px;
 }
@@ -439,10 +438,6 @@ body {
   color: #1767a8;
 }
 
-.client-reviews .swiper-wrapper{
-
-}
-
 .review-slider {
   text-align: center;
 }
@@ -706,13 +701,36 @@ footer i {
 }
 
 @media screen and (max-width: 980px) {
+
+  /* notification bar */
+
+  .notification-bar{
+    padding: 10px;
+    display: block;
+  }
+
+  .right-notification{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .right-notification a{
+    margin: auto;
+  }
+
+  .left-notification{
+    display: none;
+  }
+
+  /* end notification bar */
+
   .search-input {
     width: 100%;
     padding: 10px;
   }
 
   .navbar {
-    padding: 20px;
+    padding: 5px 20px;
   }
 
   /* end navbar */
