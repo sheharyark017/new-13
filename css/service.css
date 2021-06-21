@@ -187,7 +187,8 @@ body {
 }
 
 .gig {
-  margin-bottom: 25px;
+  margin-bottom: 18px;
+  padding: 0 9px;
 }
 
 .inner-gig {
