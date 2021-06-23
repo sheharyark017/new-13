@@ -16,7 +16,8 @@
 
     <!-- css file -->
 
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/register.css" />
+
     <!-- google font -->
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
@@ -78,55 +79,52 @@
 
     <!-- navbar -->
 
-    <div class="login-page">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="image-section col-6">
-                    <div class="overlay">
-                        <div class="web-name">
-                            <a href="index.html">
-                                <h1>Designer</h1>
-                            </a>
-                            <div class="underline"></div>
-                        </div>
-                        <div class="login-text">
-                            <p>Welcome to...</p>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. ducimus! Ex ab veniam ipsa
-                                accusamus! Cupiditate aspernatur placeat reprehenderit dolore obcaecati voluptate quis
-                                perspiciatis porro rem nesciunt numquam deserunt corrupti tenetur, consequatur, alias
-                                hic laudantium. Quisquam nihil obcaecati qui accusamus debitis itaque fuga quibusdam
-                                esse?</p>
-                            <p><a href="">www.designer.com</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="login-form-section col-md-6 col-12">
-                    <div class="login-form">
-                        <div class="login-form-top">
-                            <h1>Login</h1>
-                            <p>Welcome, Login to get amazing discounts and offers only for you.</p>
-                        </div>
-                        <form>
+    <div class="register-form-page">
+        <div class="register-form">
+            <div class="register-form-top">
+                <p>Register</p>
+                <p>Welcome, Login to get amazing discounts and offers only for you.</p>
+            </div>
+            <form>
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="left-form col-6">
                             <div class="mb-3">
-                                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                                <label for="exampleInputEmail1" class="form-label">First Name</label>
                                 <input type="email" class="form-control" id="exampleInputEmail1"
-                                    aria-describedby="emailHelp" placeholder="Example@gmail.com">
+                                    aria-describedby="emailHelp" placeholder="Mian">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleInputPassword1" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1"
-                                    placeholder="*********">
+                                <input type="password" class="form-control" id="exampleInputPassword1">
                             </div>
                             <div class="mb-3 form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Remember me</label>
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
                             </div>
-                            <button type="submit" class="btn btn-primary">Login</button>
-                            <p>New User?<a href=""> Signup</a></p>
-                        </form>
+                        </div>
+                        <div class="right-form col-6">
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Last Name</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1"
+                                    aria-describedby="emailHelp" placeholder="Usman">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Retype Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+                <div class="form-button">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                <p>Already have an account?<a href=""> Login</a></p>
+            </form>
         </div>
     </div>
 
