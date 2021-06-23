@@ -24,7 +24,7 @@ body {
 /* navbar */
 
 .navbar {
-  padding: 20px 50px;
+  padding: 10px 50px;
   background-color: #f1f1f1 !important;
   box-shadow: 0 0 10px 0 #acacac;
 }
@@ -130,22 +130,46 @@ body {
 .register-form input {
   padding: 10px 10px !important;
   border-radius: 0 !important;
+  /* width: 100%; */
+}
+
+.mb-3 {
+  display: inline;
+  width: 50%;
+  margin-bottom: 20px !important;
 }
 
 .register-form input:focus {
   outline: none !important;
   box-shadow: none !important;
-  border: 2px solid #273898;
+  border: 2px solid #7f91e2;
 }
 
 .register-form input::placeholder {
-  color: #8a94be !important;
+  color: #b4c1cf !important;
   font-weight: 500 !important;
 }
 
 .form-check label {
   font-size: 16px;
   margin-left: 10px;
+}
+
+.radio label{
+  margin: 5px;
+}
+
+.radio input {
+  border-radius: 50% !important;
+}
+
+.date input{
+  width: 100%;
+  border: 1px solid #ced4da;
+}
+
+input#file-upload {
+  width: 100%;
 }
 
 .register-form button {
@@ -327,15 +351,23 @@ footer i {
 
   /* end navbar */
 
+  .register-form-top p:nth-child(1){
+    font-size: 35px;
+  }
+
+  .register-form-top p:nth-child(2){
+    font-size: 16px;
+  }
+
   .register-form-page {
-    padding: 50px 00px;
+    padding: 0px 00px;
     background-color: #f5f5f5;
   }
 
-  .col-6{
-      padding: 5px;
+  .col-6 {
+    padding: 5px;
   }
-  
+
   .register-form {
     padding: 30px 10px;
     background-color: #fff;
@@ -343,8 +375,16 @@ footer i {
     border-radius: 0;
   }
 
-  .register-form label{
-      font-size: 16px;
+  .register-form label {
+    font-size: 16px;
+  }
+
+  .mb-3 {
+    width: 100%;
+  }
+
+  .register-form button{
+    width: 100%;
   }
 
   /* footer */
