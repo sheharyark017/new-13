@@ -55,7 +55,8 @@ body {
   padding: 15px 50px;
   background-color: #f1f1f1 !important;
   font-family: "Montserrat", sans-serif;
-  box-shadow: 0 0 10px 0 #acacac;
+/*   box-shadow: 0 0 10px 0 #acacac; */
+  margin-bottom: 0;
 }
 
 .navbar-brand {
